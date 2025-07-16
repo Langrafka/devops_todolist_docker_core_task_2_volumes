@@ -67,7 +67,7 @@ DATABASES = {
         'NAME': 'app_db',
         'USER': 'app_user',
         'PASSWORD': '1234',
-        'HOST': '172.17.0.2',  # IP MySQL контейнера
+        'HOST': 'mysql-db',
         'PORT': '3306',
     }
 }
